@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #20202d;
+    color: white;
+    padding: 15px;
+
+    .logo{
+        align-items: center;
+        display: flex;
+        font-weight: 900;
+        font-size: 30px;
+
+        img{
+            margin-right: 5px;
+        }
+
+        h1{
+            font-size: 25px;
+        }
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+    }
+
+    .avatar{
+        border-radius: 50%;
+        background-color: #01d0f6;
+        width: 24px;
+        height: 24px;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-right: 15px;
+    }
+}
